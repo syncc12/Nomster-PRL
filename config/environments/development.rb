@@ -1,3 +1,7 @@
+class Application < Rails::Application
+  config.web_console.whitelisted_ips = '10.0.2.2'
+end
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 

@@ -1,5 +1,5 @@
 class NotificationMailer < ApplicationMailer
-  default from: "no-reply@nomsterapp.com"
+  default from: "syncc12Development@gmail.com"
 
   def comment_added(comment)
     @place = comment.place
